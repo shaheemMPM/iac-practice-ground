@@ -38,3 +38,6 @@ terraform.rc
 
 # Ignore any .pem files (private keys)
 *.pem
+
+# Ignore ansible inventory files created during execution of terraform
+*.ini
